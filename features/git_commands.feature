@@ -1,4 +1,6 @@
 Feature: Implementing git commands
+
+Scenario:
 Given I have started a demo project
 When I added changes only in local branch without pushing it onto remote
 When I checkout to local master and merge the local branch which hasnt been pushed onto remote
@@ -9,4 +11,3 @@ And I merge final local branch changes into master and then push updated local m
 
 When I perform merge onto local branch, i got the local master changes into the local branch, when the updated local master is not present in remote
 Then I conclude that merge command is used to merge files/folders on your local
-
